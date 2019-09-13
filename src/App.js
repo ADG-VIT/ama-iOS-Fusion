@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
         <AMA></AMA>
+        <footer>Designed by Bhatta | Backend by Abhay | Frontend by Uddhav</footer>
     </div>
   );
 }

@@ -29,7 +29,7 @@
 .askDoubt {
     width:350px;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 6.5%;
     /* margin-top: auto;
     margin-left: auto;
     margin-right: auto; */
@@ -58,4 +58,12 @@
     padding-top: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
+}
+
+img {
+    object-fit: cover;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
 }
