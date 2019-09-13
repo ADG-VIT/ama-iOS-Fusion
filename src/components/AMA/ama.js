@@ -21,7 +21,7 @@ const ama = () => {
     return (
         <div class="box">
             <div class="askDoubt">
-            <h1 class="title">Ask your doubts</h1>
+            <h1 class="title">Ask Your Doubts</h1>
                 <form>
                     <input class="name" id="name" type="text" placeholder="Your name"></input>
                     <br></br>
@@ -31,7 +31,7 @@ const ama = () => {
                     <br></br>
                     <textarea class="doubt" id="doubts" placeholder="Your Doubts"></textarea>
                     <br></br>
-                    <button onClick={(e)=>submit(e)}>Send</button>
+                    <button class="button" onClick={(e)=>submit(e)}>Send</button>
                 </form>
             </div>
         </div>
