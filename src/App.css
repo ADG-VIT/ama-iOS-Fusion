@@ -30,7 +30,9 @@ body {
 }
 
 footer {
-  margin-top: 50px;
+  margin-top: 70px;
+  margin-bottom: 0;
+  font-size: 12px;
 }
 
 @keyframes App-logo-spin {

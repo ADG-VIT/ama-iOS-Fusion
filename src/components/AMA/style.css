@@ -29,7 +29,7 @@
 .askDoubt {
     width:350px;
     margin: auto;
-    margin-top: 6.5%;
+    margin-top: 30px;
     /* margin-top: auto;
     margin-left: auto;
     margin-right: auto; */
@@ -62,7 +62,7 @@
 
 img {
     object-fit: cover;
-    width: 20%;
+    width: 15%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;

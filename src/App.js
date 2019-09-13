@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
         <AMA></AMA>
-        <footer>Designed by Bhatta | Backend by Abhay | Frontend by Uddhav</footer>
+        <footer>&copy; Copyright of Wakanda <br></br>Designed by Bhatta | Backend by Abhay | Frontend by Uddhav</footer>
     </div>
   );
 }
