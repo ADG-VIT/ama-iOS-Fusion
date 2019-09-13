@@ -62,7 +62,7 @@
 
 img {
     object-fit: cover;
-    width: 300px;
+    width: 250px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
@@ -73,3 +73,27 @@ img {
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
+
+@media only screen and (min-height: 680) {
+    img {
+        object-fit: cover;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+
+    .askDoubt {
+        width:350px;
+        margin: auto;
+        margin-top: 40px;
+        /* margin-top: auto;
+        margin-left: auto;
+        margin-right: auto; */
+        height: 400px;
+        /* margin-top: 50px; */
+        background-color: rgb(5,5,5);
+        color: white;
+        text-align: center !important; 
+    }
+  }
