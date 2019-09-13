@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import {  Link } from 'react-router-dom';
 import './style.css';
 import image from "./adglogo3.png";
 
@@ -17,6 +18,7 @@ const ama = () => {
 
         let data = await axios.post('https://ama-iosfusion.herokuapp.com/savedata', info);
         console.log(data);
+        
     } 
 
     return (
@@ -33,7 +35,7 @@ const ama = () => {
                         <br></br>
                         <textarea class="doubt" id="doubts" placeholder="Your Doubts"></textarea>
                         <br></br>
-                        <button class="button" onClick={(e)=>submit(e)}>Send</button>
+                        <button class="button" onClick={(e)=>submit(e)}><Link class="gg" to="/">Send</Link></button>
                     </form>
             </div>
         </div>
