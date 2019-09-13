@@ -11,7 +11,7 @@ const ama = () => {
     return (
         <div class="box">
             <div class="askDoubt">
-            <h1>Ask your doubts</h1>
+            <h1 class="title">Ask your doubts</h1>
                 <form>
                     <input class="name" type="text" placeholder="Your name"></input>
                     <br></br>
@@ -19,7 +19,7 @@ const ama = () => {
                     <br></br>
                     <input class="name" type="text" placeholder="Email ID"></input>
                     <br></br>
-                    <input class="doubt" type="text" placeholder="Your doubt"></input>
+                    <textarea class="doubt" placeholder="Your Doubts"></textarea>
                     <br></br>
                 </form>
             </div>
