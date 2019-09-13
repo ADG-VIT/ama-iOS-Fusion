@@ -18,7 +18,11 @@ const ama = () => {
 
         let data = await axios.post('https://ama-iosfusion.herokuapp.com/savedata', info);
         console.log(data);
-        
+
+        document.getElementById("name").value="";
+        document.getElementById("reg").value="";
+        document.getElementById("email").value="";
+        document.getElementById("doubts").value="";
     } 
 
     return (
