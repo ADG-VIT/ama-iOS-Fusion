@@ -1,8 +1,8 @@
 .name {
     height: 2.5em;
-    width: 40vw;
+    width: 300px;
     margin-bottom: 1vh;
-    margin-top: 1vh;
+    margin-top: 1.5vh;
     padding-left: 1vw;
     border: none;
     font-family: 'Montserrat', sans-serif;
@@ -15,10 +15,10 @@
     height: 80vh;
 } */
 .doubt {
-    height: 5em;
-    width: 40vw;
+    height: 6em;
+    width: 300px;
     margin-bottom: 1vh;
-    margin-top: 1vh;
+    margin-top: 1.5vh;
     padding-left: 1vw;
     border: none;
     font-family: 'Montserrat', sans-serif;
@@ -29,13 +29,13 @@
 }
 
 .askDoubt {
-    width:60vw;
+    width:400px;
     margin: auto;
-    margin-top: 2vh;
+    margin-top: 10vh;
     /* margin-top: auto;
     margin-left: auto;
     margin-right: auto; */
-    height: fit-content;
+    height: 500px;
     /* margin-top: 50px; */
     background-color: rgb(5,5,5);
     color: white;
@@ -50,7 +50,7 @@
     background-color: rgb(13,13,13);
     color: white;
     margin-bottom: 2vh;
-    margin-top: 2vh;
+    margin-top: 3.5vh;
 }
 
 .box{
@@ -59,7 +59,7 @@
 }
 
 .title {
-    padding-top: 2vh;
+    padding-top: 3.5vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
 }
@@ -69,7 +69,7 @@ img {
     width: 15vw;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3vh;
+    margin-top: 6vh;
 }
 
 .gg {
@@ -93,12 +93,14 @@ img {
 
     .button{
         width:100px;
+        margin-top:2vh;
     }
 
     .askDoubt {
         width:90vw;
         margin-bottom: 10vh;
         padding-bottom: 10vh;
+        height: 340px;
         /* margin: auto;
         margin-top: 40px; */
         /* margin-top: auto;
