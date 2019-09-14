@@ -1,39 +1,41 @@
 .name {
-    height: 30px;
-    width: 250px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding-left: 5px;
+    height: 5vh;
+    width: 40vw;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    padding-left: 1vw;
     border: none;
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(13,13,13);
     color: white;
-    border-radius: 3%;
+    border-radius: 5px;
 }
 
-
+form{
+    height: 80vh;
+}
 .doubt {
-    height: 70px;
-    width: 250px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding-left: 5px;
+    height: 13vh;
+    width: 40vw;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    padding-left: 1vw;
     border: none;
     font-family: 'Montserrat', sans-serif;
     resize: none;
     background-color: rgb(13,13,13);
     color: white;
-    border-radius: 3%;
+    border-radius: 5px;
 }
 
 .askDoubt {
-    width:350px;
+    width:60vw;
     margin: auto;
     margin-top: 30px;
     /* margin-top: auto;
     margin-left: auto;
     margin-right: auto; */
-    height: 400px;
+    height: 70vh;
     /* margin-top: 50px; */
     background-color: rgb(5,5,5);
     color: white;
@@ -41,18 +43,19 @@
 }
 
 .button {
-    width: 100px;
-    height: 30px;
-    border-radius: 8%;
+    width: 8vw;
+    height: 5vh;
+    border-radius: 5px;
     border: none;
     background-color: rgb(13,13,13);
     color: white;
-    margin-top: 10px;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
 }
 
-/* .box {
-    text-align: center !important;
-} */
+.box{
+    height: 90vh;
+}
 
 .title {
     padding-top: 20px;
@@ -74,7 +77,7 @@ img {
     font-family: 'Montserrat', sans-serif;
 }
 
-@media only screen and (min-height: 680) {
+@media only screen and (max-width: 680px) {
     img {
         object-fit: cover;
         width: 300px;
@@ -83,17 +86,25 @@ img {
         margin-top: 40px;
     }
 
+    .name , .doubt {
+        width: 80vw;
+    }
+
+    .button{
+        width:100px;
+    }
+
     .askDoubt {
-        width:350px;
-        margin: auto;
-        margin-top: 40px;
+        width:100vw;
+        /* margin: auto;
+        margin-top: 40px; */
         /* margin-top: auto;
         margin-left: auto;
         margin-right: auto; */
-        height: 400px;
+        /* height: 400px; */
         /* margin-top: 50px; */
-        background-color: rgb(5,5,5);
+        /* background-color: rgb(209, 11, 11);
         color: white;
-        text-align: center !important; 
+        text-align: center !important;  */
     }
-  }
+}

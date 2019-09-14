@@ -30,10 +30,9 @@ body {
 }
 
 footer {
-  margin-top: 70px;
-  font-size: 12px;
+  margin-top: 2vh;
+  font-size: 1.5vh;
   color: rgb(100,100,100);
-  margin-bottom: 0px;
 }
 
 /* @media only screen and (min-height: 680) and (max-height: ) {
