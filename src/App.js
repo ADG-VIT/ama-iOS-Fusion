@@ -9,7 +9,7 @@ function App() {
     <Router>
       <div className="App">
         <Route exact path="/" component={AMA}></Route>
-        <footer>&copy; Copyright of Wakanda <br></br>Designed by Bhatta | Backend by Abhay | Frontend by Uddhav</footer>
+       
       </div>
     </Router>
     

@@ -58,6 +58,7 @@ const ama = () => {
                         <button class="button" onClick={(e)=>submit(e)}><Link class="gg" to="/">Send</Link></button>
                     </form>
             </div>
+            <footer>&copy; Copyright of Wakanda <br></br>Designed by Bhatta | Backend by Abhay | Frontend by Uddhav</footer>
         </div>
         
     )
