@@ -17,7 +17,7 @@ const ama = () => {
             console.log(document.getElementById("name").value);
             let info ={
                 "name": document.getElementById("name").value,
-                "regno": document.getElementById("reg").value,
+                "regno": "19DUMMY69",
                 "email": document.getElementById("email").value,
                 "message": document.getElementById("doubts").value
             }
@@ -45,15 +45,15 @@ const ama = () => {
         <div class="box">
             <img src={image}></img>
             <div class="askDoubt">
-                <h1 class="title" id="title">Ask Your Doubts</h1>
+                <h1 class="title" id="title">Post Your Messages</h1>
                     <form>
-                        <input class="name" id="name" type="text" placeholder="Your name"></input>
+                        <input class="name" id="name" type="text" placeholder="Your name(can be anonymous now)"></input>
                         <br></br>
-                        <input class="name" id="reg" type="text" placeholder="Registration number"></input>
+                        <input class="name" id="reg" type="text" placeholder="Registration number(No need)"></input>
                         <br></br>
-                        <input class="name" id="email" type="text" placeholder="Email ID"></input>
+                        <input class="name" id="email" type="text" placeholder="Email ID(No need)"></input>
                         <br></br>
-                        <textarea class="doubt" id="doubts" placeholder="Your Doubts"></textarea>
+                        <textarea class="doubt" id="doubts" placeholder="Your Feedback/Messages"></textarea>
                         <br></br>
                         <button class="button" onClick={(e)=>submit(e)}><Link class="gg" to="/">Send</Link></button>
                     </form>
