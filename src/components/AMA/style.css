@@ -1,0 +1,99 @@
+.name {
+    height: 30px;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 5px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(13,13,13);
+    color: white;
+    border-radius: 3%;
+}
+
+
+.doubt {
+    height: 70px;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 5px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    resize: none;
+    background-color: rgb(13,13,13);
+    color: white;
+    border-radius: 3%;
+}
+
+.askDoubt {
+    width:350px;
+    margin: auto;
+    margin-top: 30px;
+    /* margin-top: auto;
+    margin-left: auto;
+    margin-right: auto; */
+    height: 400px;
+    /* margin-top: 50px; */
+    background-color: rgb(5,5,5);
+    color: white;
+    text-align: center !important; 
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    border-radius: 8%;
+    border: none;
+    background-color: rgb(13,13,13);
+    color: white;
+    margin-top: 10px;
+}
+
+/* .box {
+    text-align: center !important;
+} */
+
+.title {
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+img {
+    object-fit: cover;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.gg {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (min-height: 680) {
+    img {
+        object-fit: cover;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+
+    .askDoubt {
+        width:350px;
+        margin: auto;
+        margin-top: 40px;
+        /* margin-top: auto;
+        margin-left: auto;
+        margin-right: auto; */
+        height: 400px;
+        /* margin-top: 50px; */
+        background-color: rgb(5,5,5);
+        color: white;
+        text-align: center !important; 
+    }
+  }
