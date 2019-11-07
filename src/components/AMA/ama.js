@@ -43,22 +43,23 @@ const ama = () => {
 
     return (
         <div class="box">
-            <img src={image}></img>
+            {/* <img src={image}></img> */}
+            <h1>Anokha a NGO</h1>
             <div class="askDoubt">
-                <h1 class="title" id="title">Post Your Messages</h1>
+                <h1 class="title" id="title">Call for Volunteers</h1>
                     <form>
-                        <input class="name" id="name" type="text" placeholder="Your name(can be anonymous now)"></input>
+                        <input class="name" id="name" type="text" placeholder="Your name"></input>
                         <br></br>
-                        <input class="name" id="reg" type="text" placeholder="Registration number(No need)"></input>
+                        <input class="name" id="reg" type="text" placeholder="Phone Number"></input>
                         <br></br>
-                        <input class="name" id="email" type="text" placeholder="Email ID(No need)"></input>
+                        <input class="name" id="email" type="text" placeholder="Email ID"></input>
                         <br></br>
-                        <textarea class="doubt" id="doubts" placeholder="Your Feedback/Messages"></textarea>
+                        <textarea class="doubt" id="doubts" placeholder="Any Messages"></textarea>
                         <br></br>
-                        <button class="button" onClick={(e)=>submit(e)}><Link class="gg" to="/">Send</Link></button>
+                        <button class="button" onClick={(e)=>submit(e)}><Link class="gg" to="/">Submit</Link></button>
                     </form>
             </div>
-            <footer>&copy; Copyright of Wakanda <br></br>Designed by Bhatta | Backend by Abhay | Frontend by Uddhav</footer>
+            <footer>&copy; Copyright of IWP <br></br>Developed By Kaustav Tamuly</footer>
         </div>
         
     )

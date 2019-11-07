@@ -30,10 +30,7 @@ body {
 }
 
 footer {
-  height:6vh;
-  position: absolute;
-  bottom:0;
-  width:100%;
+  
   text-align: center;
   margin-top: 1vh;
   font-size: 1.5vh;
